@@ -2,8 +2,8 @@ resources:
   - name: anything-llm-instance  
     type: compute.v1.instance  
     properties:  
-      zone: us-central1-a  
-      machineType: zones/us-central1-a/machineTypes/n1-standard-1  
+      zone: southamerica-east1
+      machineType: zones/southamerica-east1/machineTypes/n1-standard-1  
       disks:  
         - deviceName: boot  
           type: PERSISTENT  
