@@ -2,8 +2,8 @@ resources:
   - name: anything-llm-instance  
     type: compute.v1.instance  
     properties:  
-      zone: southamerica-east1
-      machineType: zones/southamerica-east1/machineTypes/n1-standard-1  
+      zone: us-central1-a  
+      machineType: zones/us-central1-a/machineTypes/n1-standard-1  
       disks:  
         - deviceName: boot  
           type: PERSISTENT  
@@ -41,4 +41,3 @@ resources:
               echo "Health check: $ONLINE"  
 
               echo "Setup complete! AnythingLLM instance is now online!"  
-
