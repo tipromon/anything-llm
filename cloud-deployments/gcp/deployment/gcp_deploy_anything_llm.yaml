@@ -3,7 +3,7 @@ resources:
     type: compute.v1.instance  
     properties:  
       zone: us-central1-c  
-      machineType: zones/us-central1-c/machineTypes/n1-standard-1  
+      machineType: zones/us-central1-c/machineTypes/e2-standard-2  
       disks:  
         - deviceName: boot  
           type: PERSISTENT  
